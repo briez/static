@@ -1,5 +1,9 @@
+
 setTimeout(() => {
+  let parent = document.querySelector('#parent');
   const p = document.createElement("p");
-  p.innerText = "and it's dynamic, too!";
-  document.body.appendChild(p);
-}, 2000);
+  let elem = parent.querySelector('.text');
+  p.innerText = "viglina@gmail.com";
+  parent.appendChild(p);
+}, 10000);
+
